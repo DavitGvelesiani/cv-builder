@@ -1,0 +1,52 @@
+.privateInfo-chapter{
+    width: 662px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 48px;
+    border-bottom: 1px solid black;
+}
+
+.privateInfo-chapter h1{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    color: #F93B1D; 
+}
+
+.contact{
+    margin-top: 17px;
+}
+
+.contact p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px; 
+}
+
+.privateInfo-chapter h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    width: 118px;
+    margin-top: 34px;
+    color:#F93B1D
+}
+
+.privateInfo-chapter .aboutMe{
+    max-width: 432px;
+    max-height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    margin-top: 15px;
+}
+
+
+.privateInfo-chapter img{
+    width: 246px;
+    height: 246px;
+    border-radius: 50%;
+}    

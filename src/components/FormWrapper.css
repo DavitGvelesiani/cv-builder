@@ -1,0 +1,19 @@
+.page{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+}
+
+.left-container{
+    flex: 3;
+    background-color: #F9F9F9;
+}
+
+.right-container{
+    flex: 2;
+}
+
+.form-container{
+    width: 798px;
+    margin: auto;
+}

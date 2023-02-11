@@ -1,13 +1,18 @@
-/* .home{
-    position: relative;
+ .home{ 
      width: 1920px;
      height: 1080px;
-     background: #FFFFFF; 
-} */
+     background: url('../Images/shutterstock.png');
+     background-size: cover;
+} 
 
 .welcome{
-    
-    background: url('../Images/shutterstock.png');
+    width: 1780px;
+    margin: auto;
+}
+
+.head{
+    height: 80px;
+    border-bottom: 2px solid #1A1A1A;
 }
 
 .logo{
@@ -15,7 +20,16 @@
      width: 236px;
      height: 38px;
      left: 70px;
-     top: 25px;
+     top: 25px; 
+}
+
+.logo-2{
+    position: absolute;
+    width: 299px;
+    height: 299px;
+    left: 1076px;
+    top: 473px;
+    z-index: -1;
 }
 
 .start-button{
@@ -31,6 +45,8 @@
 
     background: #1A1A1A;
     border-radius: 8px;
+
+    cursor: pointer;
     
 }
 

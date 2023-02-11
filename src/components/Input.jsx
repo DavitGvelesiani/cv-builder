@@ -1,10 +1,11 @@
 import React from 'react'
+import './Input.css'
 
-const Input = ({heading, type, placeholder, textUnder}) => {
+const Input = ({heading, type, placeholder, textUnder, className, onChange}) => {
   return (
-    <div className='input'>
-        <footer>{heading}</footer>
-        <input type={type} placeholder={placeholder} />
+    <div className={`input ${className}`}>
+        <label>{heading}</label>
+        <input type={type} placeholder={placeholder} onChange={onChange}/>
         <p>{textUnder}</p>
     </div>
   )
