@@ -24,3 +24,13 @@
     border: 1px solid #BCBCBC;
     border-radius: 4px;
 }
+
+input:invalid{
+    border-color: red;
+}
+
+
+input:valid{
+    border-color: rgb(88, 153, 75);
+}
+

@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
-import './PrivateInfo.css'
+import './PrivateInfoChapter.css'
 import {BsFillTelephoneFill} from 'react-icons/bs';
 import {MdAlternateEmail} from 'react-icons/md';
 import { userContext } from '../../store/UserContext';
 
 const PrivateInfoChapter = () => {
-  const {user} = useContext(userContext)
+  const {user, setUser} = useContext(userContext);
 
   return (
     <div className='privateInfo-chapter'>
@@ -16,7 +16,7 @@ const PrivateInfoChapter = () => {
               <p><BsFillTelephoneFill color='#898989' /> {user.number}</p>
             </div>
             <h2>about me</h2>
-            <p className='aboutMe'>some textjsadkjsdakdjaskdjasdkjshdakjdasjdhkasjdhaksj kjsadkjasd kjasdkajshda jasdkjashdka kjasdbkasjd</p>
+            <p className='aboutMe'>{user.aboutMe}</p>
 
         </div>
         <img src={user.image} alt="" />

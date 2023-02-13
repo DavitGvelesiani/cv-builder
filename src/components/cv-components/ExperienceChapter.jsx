@@ -1,18 +1,25 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import './ExperienceChapter.css'
+import { userContext } from '../../store/UserContext'
 
 const ExperienceChapter = () => {
-  return (
-    <div className='experienceChapter'>
-        <h2>გამოცდილება</h2>
-        <div className='job'>
-            <p>react native, microsoft</p>
-            <p>2020 - 2022</p>
+  const {user, setUset} = useContext(userContext)
+  
+      
+      {user.experience.map((experience) => {
+        return (
+            <div className='experienceChapter' key={experience.id}>
+            <h2>გამოცდილება</h2>
+            <div className='job'>
+                <p className='job-name'>{experience.position}, {experience.employer}</p>
+                <p className='job-date'>{experience.dueDate}</p>
+            </div>
+            <p className='about-job'>{experience.description}</p>
         </div>
-        <p>Experienced Javascript Native Developer with 5 years in the industry. 
-            proficient withreact. Used problem-solving aptitude to encahge application performance by 14%.
-            created data visualisation tools and integrated designs. </p>
-    </div>
-  )
+        );
+      })
+      
+      }
 }
 
 export default ExperienceChapter

@@ -1,0 +1,45 @@
+.experienceChapter{
+    width: 662px;
+    margin: auto;
+    margin-top: 24px;
+    border-bottom: 1px solid #C8C8C8;
+    padding-bottom: 23px;
+}
+
+.experienceChapter h2{
+    width: 118px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F93B1D;
+}
+
+.job{
+    margin-top: 15px;;
+}
+
+.job-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A1A; 
+}
+
+.job-date{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #919191;
+    margin-top: -13px;
+}
+
+.about-job{
+    width: 662px;
+    height: 66px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    margin-top: 16px;
+}
